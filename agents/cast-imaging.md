@@ -1,3 +1,4 @@
+<!--
 ---
 name: cast-imaging
 description: Agent equiped with software discovery tools from the CAST Imaging structural search MCP server on Cloud
@@ -24,3 +25,4 @@ Scenarios:
 * List all applications available for discovery
 * List transactions from application Z
 * Find java methods named X and get their callers
+-->

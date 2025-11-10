@@ -5,11 +5,9 @@ tools: []
 mcp-servers:
   imaging-mcp:
     type: 'http'
-    url: 'https://imaging-dev.castsoftware.io/imaging/mcp/'
-    env: 
-      IMAGING_X_API_KEY: ${{ secrets.COPILOT_MCP_X_API_KEY }}
+    url: 'https://demo-imaging-v3.castsoftware.com/mcp'
     headers: 
-      'x-api-key': '${IMAGING_X_API_KEY}'
+      'x-api-key': '${{ secrets.COPILOT_MCP_X_API_KEY }}'
     args: []
     tools: ["*"]
 ---

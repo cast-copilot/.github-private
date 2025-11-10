@@ -6,7 +6,7 @@ tools: []
 mcp-servers:
   software-discovery:
     type: 'http'
-    url: 'https://imaging-dev.castsoftware.io/imaging/mcp/'
+    url: 'https://demo-imaging-v3.castsoftware.com/mcp'
     env: 
       IMAGING_X_API_KEY: ${{ secrets.COPILOT_MCP_X_API_KEY }}
     headers: 
